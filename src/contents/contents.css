@@ -1,0 +1,10 @@
+.board {
+    background-color: rgba(25,25,25);
+    position: absolute;
+    left: 0px;
+    top: 1080px;
+    width: 1920px;
+    height: 5400px;
+    z-index: 1;
+}
+

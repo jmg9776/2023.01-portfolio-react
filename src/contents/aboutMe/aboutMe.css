@@ -1,0 +1,70 @@
+.photo {
+    position: absolute;
+    left: 0px;
+    top: 262px;
+    z-index: 52;
+}
+.title-back {
+    background-color: rgb(91, 76, 219);
+    position: absolute;
+    left: 447px;
+    top: 95px;
+    width: 355px;
+    height: 28px;
+    z-index: 14;
+}
+.title {
+    font-size: 54px;
+    font-family: "LINESeedKR-Bd";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    left: 476px;
+    top: 71px;
+    z-index: 20;
+}
+.sub-title {
+    font-size: 23px;
+    font-family: "LINESeedKR-Rg";
+    color: rgb(169, 169, 169);
+    line-height: 1.2;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    z-index: 44;
+}
+.sub-color {
+    color: rgb(157, 147, 234);
+}
+.info-box1 {
+    font-size: 20px;
+    font-family: "LINESeedKR-Rg";
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    left: 344px;
+    top: 260px;
+    z-index: 46;
+}
+.info-box2 {
+    font-size: 20px;
+    font-family: "LINESeedKR-Rg";
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    left: 800px;
+    top: 260px;
+    z-index: 46;
+}
+p {
+    padding-top: 8px;
+}
+.git-box {
+    position: absolute;
+    left: 1100px;
+    top: 260px;
+    z-index: 64;
+}

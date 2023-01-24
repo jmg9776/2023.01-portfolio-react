@@ -3,15 +3,14 @@
     background-repeat: no-repeat;
     left: -320px;
     width: 2560px;
-    height: 1440px;
+    height: 1080px;
     z-index: 2;
 }
 .title2 {
     font-size: 39px;
     font-family: "LINESeedKR-Rg";
-
-    text-shadow: 0px 0px rgba(223, 223, 223,0), 0px -1px rgba(223, 223, 223), 0px 0px rgba(223, 223, 223), 0px 0px rgba(223, 223, 223);
     font-weight: bold;
+    color: rgba(240,240,240,80%);
     line-height: 1.2;
     -moz-transform: matrix( 1.27175486677865,0,0,1.27175486677865,0,0);
     -webkit-transform: matrix( 1.27175486677865,0,0,1.27175486677865,0,0);
