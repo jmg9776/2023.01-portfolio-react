@@ -1,9 +1,24 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+}
+.board {
+    background-color: rgba(25,25,25);
+    position: absolute;
+    left: 0px;
+    top: 146px;
+    width: 1920px;
+    height: 5400px;
+    z-index: 1;
+}
+.all-scale {
+    scale: 70%;
 }
 @font-face {
-    font-family: "NotoSansKR-Black";
-    src: url("./font/NotoSansKR-Black.otf");
+    font-family: "LINESeedKR-Bd";
+    src: url("./font/LINESeedKR-Bd.ttf");
+}
+@font-face {
+    font-family: "LINESeedKR-Rg";
+    src: url("./font/LINESeedKR-Rg.ttf");
 }

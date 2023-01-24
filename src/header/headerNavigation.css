@@ -1,0 +1,21 @@
+.FLEXIBLE {
+    font-size: 38px;
+    font-family: "LINESeedKR-Bd";
+    color: rgb(157, 147, 234);
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    left: 50px;
+    top: 38px;
+    z-index: 7;
+}
+.MENU {
+    font-size: 21px;
+    font-family: "LINESeedKR-Rg";
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.2;
+    position: absolute;
+    left: 800px;
+    top: 47px;
+    z-index: 8;
+}
