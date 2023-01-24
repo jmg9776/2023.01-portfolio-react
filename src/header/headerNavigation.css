@@ -1,8 +1,7 @@
 .FLEXIBLE {
-    font-size: 38px;
+    font-size: 35px;
     font-family: "LINESeedKR-Bd";
     color: rgb(157, 147, 234);
-    font-weight: bold;
     line-height: 1.2;
     position: absolute;
     left: 50px;
@@ -18,10 +17,10 @@
 }
 .menu-list {
     display: inline;
-    padding: 25px;
+    padding: 21px;
 }
 .menu-font {
-    font-size: 21px;
+    font-size: 17px;
     font-family: "LINESeedKR-Rg";
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;

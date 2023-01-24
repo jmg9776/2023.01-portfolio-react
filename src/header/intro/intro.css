@@ -7,9 +7,8 @@
     z-index: 2;
 }
 .title2 {
-    font-size: 39px;
+    font-size: 50px;
     font-family: "LINESeedKR-Rg";
-    font-weight: bold;
     color: rgba(240,240,240,80%);
     line-height: 1.2;
     -moz-transform: matrix( 1.27175486677865,0,0,1.27175486677865,0,0);
@@ -22,10 +21,9 @@
     z-index: 11;
 }
 .title1 {
-    font-size: 100px;
+    font-size: 127px;
     font-family: "LINESeedKR-Bd";
     color: rgb(255, 255, 255);
-    font-weight: bold;
     line-height: 1.2;
     -moz-transform: matrix( 1.27175486677865,0,0,1.27175486677865,0,0);
     -webkit-transform: matrix( 1.27175486677865,0,0,1.27175486677865,0,0);
@@ -37,7 +35,7 @@
     z-index: 6;
 }
 .SCROLL_DOWN {
-    font-size: 10px;
+    font-size: 12px;
     font-family: "LINESeedKR-Rg";
     color: rgb(255, 255, 255);
     line-height: 1.2;
