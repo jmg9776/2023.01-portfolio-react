@@ -1,6 +1,6 @@
 .photo {
     position: absolute;
-    left: -30px;
+    left: 0px;
     top: 262px;
     z-index: 52;
 }
@@ -44,7 +44,7 @@
     font-weight: bold;
     line-height: 1.2;
     position: absolute;
-    left: 344px;
+    left: 364px;
     top: 260px;
     z-index: 46;
 }
@@ -75,7 +75,7 @@ p {
     font-weight: bold;
     line-height: 1.2;
     position: absolute;
-    left: 344px;
+    left: 364px;
     top: 390px;
     z-index: 46;
 }
@@ -105,4 +105,9 @@ p {
     padding-top: 0px;
     font-size: 20px;
     color: rgba(169,169,169);
+}
+.about-me-box {
+    position: absolute;
+    top: 1080px;
+    width: 100%;
 }

@@ -1,8 +1,8 @@
 .intro {
     position: absolute;
     background-repeat: no-repeat;
-    left: -320px;
-    width: 2560px;
+    left: 0;
+    width: 100%;
     height: 1080px;
     z-index: 2;
 }
@@ -16,8 +16,9 @@
     -webkit-transform: matrix( 1.27175486677865,0,0,1.27175486677865,0,0);
     -ms-transform: matrix( 1.27175486677865,0,0,1.27175486677865,0,0);
     position: absolute;
-    left: 683px;
-    top: 583px;
+    top:55%;
+    left:50%;
+    transform:translate(-50%, -50%);
     z-index: 11;
 }
 .title1 {
@@ -30,8 +31,9 @@
     -webkit-transform: matrix( 1.27175486677865,0,0,1.27175486677865,0,0);
     -ms-transform: matrix( 1.27175486677865,0,0,1.27175486677865,0,0);
     position: absolute;
-    left: 768px;
-    top: 432px;
+    top:45%;
+    left:50%;
+    transform:translate(-50%, -50%);
     z-index: 6;
 }
 .SCROLL_DOWN {
@@ -41,16 +43,16 @@
     line-height: 1.2;
     text-align: center;
     position: absolute;
-    left: 922px;
-    top: 948px;
+    top:85%;
+    left:50%;
+    transform:translate(-50%, -50%);
     z-index: 56;
 }
 .Ellipse {
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    left: 960px;
-    top: 884px;
+    top:80%; left:50%; transform:translate(-50%, -50%);
     width: 5px;
     height: 5px;
     z-index: 55;
@@ -60,7 +62,16 @@
     position: absolute;
     left: 944px;
     top: 873px;
+    top:80%; left:50%; transform:translate(-50%, -50%);
     width: 33px;
     height: 53px;
     z-index: 54;
+}
+.intro-center {
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    z-index: 1;
+    left:50%;
+    transform:translate(-50%, 0%);
 }

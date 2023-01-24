@@ -4,7 +4,7 @@ import './aboutMe.css'
 import Check from './check.png'
 
 export function AboutMe() {
-    return <div>
+    return <div className="about-me-box">
         <div className="title-back"></div>
         <div className="title">ABOUT ME</div>
         <div className="sub-title">
