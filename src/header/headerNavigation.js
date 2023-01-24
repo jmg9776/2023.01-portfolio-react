@@ -11,7 +11,7 @@ export function HeaderNavigation() {
                 </li>
                 <li className="menu-list">
                     <a className="menu-font" href="https://www.google.com">
-                        INFOR
+                        INFO
                     </a>
                 </li>
                 <li className="menu-list">
