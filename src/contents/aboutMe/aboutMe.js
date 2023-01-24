@@ -1,7 +1,8 @@
 import Photo from './photo.png'
 import Github from './github.png'
 import './aboutMe.css'
-import {NavLink} from "react-bootstrap";
+import Check from './check.png'
+
 export function AboutMe() {
     return <div>
         <div className="title-back"></div>
@@ -38,6 +39,41 @@ export function AboutMe() {
                     &nbsp;jmg97@kakao.com
                 </b>
             </p>
+        </div>
+        <div className="award-box">
+            <img src={Check}/> <b className="sub-color">수상내역</b>
+            <p/>
+            <p className="list">2021. 호서대학교 해커톤 경진대회 1위</p>
+            <p className="list">2021. 호서대학교 아이디어 경진대회 2위</p>
+            <p className="list">2021. 충남ICT아이디어 경진대회 입상</p>
+            <p className="list">2021. SJSU 동계 소프트웨어 캠프 경진대회 1위</p>
+            <p className="list">2015. 한국정보올림피아드 강원도 대회 동상</p>
+            <p className="list">2014. 한국정보올림피아드 전국대회 입상</p>
+            <p className="list">2014. 한국정보올림피아드 강원도 대회 공동1위</p>
+            <p className="list">2012. 한국정보올림피아드 전국대회 동상</p>
+        </div>
+        <div className="experience">
+            <img src={Check}/> <b className="sub-color">대외 활동</b>
+            <p/>
+            <p className="list">2022 산호세 주립대학교 동계 소프트웨어 캠프</p>
+            <p className="list">2017~2018 올엔올 CETS데모 개발</p>
+            <p className="list">2016 엘젠ICT 근로 장학</p>
+            <p className="list">2014~2015 서울여대 정보보호 영재교육원 1,2기 수료</p>
+        </div>
+        <div className="experience">
+            <img src={Check}/> <b className="sub-color">대외 활동</b>
+            <p/>
+            <p className="list">2022 산호세 주립대학교 동계 소프트웨어 캠프</p>
+            <p className="list">2017~2018 올엔올 CETS데모 개발</p>
+            <p className="list">2016 엘젠ICT 근로 장학</p>
+            <p className="list">2014~2015 서울여대 정보보호 영재교육원 1,2기 수료</p>
+        </div>
+        <div className="certification">
+            <img src={Check}/> <b className="sub-color">대외 활동</b>
+            <p/>
+            <p className="list">TOPCIT 정기평가 461점(수준3) <a className="sub-color" href="https://www.topcit.or.kr/introduction/ability.do" target="_blank">LINK</a></p>
+            <p className="list">정보처리산업기사</p>
+            <p className="list">JLPT N3</p>
         </div>
     </div>
 }

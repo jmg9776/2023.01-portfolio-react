@@ -1,6 +1,6 @@
 .photo {
     position: absolute;
-    left: 0px;
+    left: -30px;
     top: 262px;
     z-index: 52;
 }
@@ -67,4 +67,42 @@ p {
     left: 1100px;
     top: 260px;
     z-index: 64;
+}
+.award-box {
+    font-size: 20px;
+    font-family: "LINESeedKR-Rg";
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    left: 344px;
+    top: 390px;
+    z-index: 46;
+}
+.experience {
+    font-size: 20px;
+    font-family: "LINESeedKR-Rg";
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    left: 800px;
+    top: 390px;
+    z-index: 46;
+}
+.certification {
+    font-size: 20px;
+    font-family: "LINESeedKR-Rg";
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    left: 800px;
+    top: 630px;
+    z-index: 46;
+}
+.list {
+    padding-top: 0px;
+    font-size: 20px;
+    color: rgba(169,169,169);
 }
