@@ -36,7 +36,7 @@ function App() {
     return (
         <div>
             <div style={{overflow:"hidden", width:window.innerWidth, height:videoHeight, position:"absolute", left:"50%",transform: "translate(-50%, 0%)"}}>
-                <div style={{background:"linear-gradient(to bottom, rgba(0,0,0,0%),rgba(25,25,25,100%))", position:"absolute", left:"0", zIndex:1000, width:window.innerWidth, height:videoHeight}}></div>
+                <div style={{background:"linear-gradient(to bottom, rgba(5,5,5,70%),rgba(25,25,25,100%))", position:"absolute", left:"0", zIndex:1000, width:window.innerWidth, height:videoHeight}}></div>
                 <video loop muted autoPlay>
                     <source src={video} type="video/mp4"/>
                 </video>
