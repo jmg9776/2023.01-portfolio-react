@@ -37,22 +37,24 @@
     color: rgb(157, 147, 234);
 }
 .info-box1 {
+    font-weight: normal;
     font-size: 17px;
     font-family: "LINESeedKR-Rg";
     color: white;
     line-height: 1.2;
     position: absolute;
-    left: 364px;
+    left: 404px;
     top: 260px;
     z-index: 46;
 }
 .info-box2 {
+    font-weight: normal;
     font-size: 17px;
     font-family: "LINESeedKR-Rg";
     color: white;
     line-height: 1.2;
     position: absolute;
-    left: 800px;
+    left: 840px;
     top: 260px;
     z-index: 46;
 }
@@ -68,20 +70,20 @@ p {
 .award-box {
     font-size: 21px;
     font-family: "LINESeedKR-Rg";
-    color: white;
+    color: rgba(255,255,255,0);
     line-height: 1.2;
     position: absolute;
-    left: 364px;
+    left: 404px;
     top: 390px;
     z-index: 46;
 }
 .experience {
     font-size: 21px;
     font-family: "LINESeedKR-Rg";
-    color: white;
+    color: rgba(255,255,255,0);
     line-height: 1.2;
     position: absolute;
-    left: 800px;
+    left: 840px;
     top: 390px;
     z-index: 46;
 }
@@ -91,7 +93,7 @@ p {
     color: white;
     line-height: 1.2;
     position: absolute;
-    left: 800px;
+    left: 840px;
     top: 630px;
     z-index: 46;
 }

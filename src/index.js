@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <div className="all-scale">
+    <div>
         <React.StrictMode>
             <App />
         </React.StrictMode>

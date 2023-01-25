@@ -2,21 +2,52 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Content from './contents/contents.js'
+import video from "./header/intro/intro.mp4";
+import {useEffect, useState} from "react";
 
+function useWindowSize() {
+    const [windowSize, setWindowSize] = useState({
+    });
+    useEffect(() => {
+        function handleResize() {
+            setWindowSize({
+            });
+        }
+        window.addEventListener("resize", handleResize);
+        handleResize();
+        return () => window.removeEventListener("resize", handleResize);
+    }, []); // Empty array ensures that effect is only run on mount
+    return windowSize;
+}
 function App() {
+    const size = useWindowSize();
     let sUsrAg = navigator.userAgent;
-
+    let scale = (window.innerWidth/1300*100);
+    if ((window.innerWidth/1300*100) > 100) {
+        scale = '100'
+    }
     if (sUsrAg.indexOf("Chrome") > -1) {
     } else {
         alert("이 웹페이지는 데스크탑 전용입니다.\n" +
             "크롬 브라우저 기준으로 작성되었습니다.\n" +
             "다른 브라우저 이용시 정상적인 확인이 불가능 할 수 있습니다.")
     }
-    return (<div>
-            <div className="wrap">
+    let videoHeight = (1080*scale/100) + "px";
+
+    return (
+        <div>
+            <div class="test" style={{overflow:"hidden", width:window.innerWidth, height:videoHeight, position:"absolute", left:"50%",transform: "translate(-50%, 0%)"}}>
+                <video loop muted autoPlay>
+                    <source src={video} type="video/mp4"/>
+                </video>
+            </div>
+            <div style={{scale:scale+"%"}}>
+
+
                 <Content></Content>
             </div>
         </div>
+
     );
 }
 

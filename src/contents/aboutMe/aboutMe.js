@@ -60,16 +60,8 @@ export function AboutMe() {
             <p className="list">2016 엘젠ICT 근로 장학</p>
             <p className="list">2014~2015 서울여대 정보보호 영재교육원 1,2기 수료</p>
         </div>
-        <div className="experience">
-            <img src={Check}/> <b className="sub-color">대외 활동</b>
-            <p/>
-            <p className="list">2022 산호세 주립대학교 동계 소프트웨어 캠프</p>
-            <p className="list">2017~2018 올엔올 CETS데모 개발</p>
-            <p className="list">2016 엘젠ICT 근로 장학</p>
-            <p className="list">2014~2015 서울여대 정보보호 영재교육원 1,2기 수료</p>
-        </div>
         <div className="certification">
-            <img src={Check}/> <b className="sub-color">대외 활동</b>
+            <img src={Check}/> <b className="sub-color">자격증/어학</b>
             <p/>
             <p className="list">TOPCIT 정기평가 461점(수준3) <a className="sub-color" href="https://www.topcit.or.kr/introduction/ability.do" target="_blank">LINK</a></p>
             <p className="list">정보처리산업기사</p>
