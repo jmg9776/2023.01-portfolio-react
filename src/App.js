@@ -33,10 +33,10 @@ function App() {
             "다른 브라우저 이용시 정상적인 확인이 불가능 할 수 있습니다.")
     }
     let videoHeight = (1080*scale/100) + "px";
-
     return (
         <div>
-            <div class="test" style={{overflow:"hidden", width:window.innerWidth, height:videoHeight, position:"absolute", left:"50%",transform: "translate(-50%, 0%)"}}>
+            <div style={{overflow:"hidden", width:window.innerWidth, height:videoHeight, position:"absolute", left:"50%",transform: "translate(-50%, 0%)"}}>
+                <div style={{background:"linear-gradient(to bottom, rgba(0,0,0,0%),rgba(25,25,25,100%))", position:"absolute", left:"0", zIndex:1000, width:window.innerWidth, height:videoHeight}}></div>
                 <video loop muted autoPlay>
                     <source src={video} type="video/mp4"/>
                 </video>
