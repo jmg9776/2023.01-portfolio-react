@@ -51,6 +51,12 @@ export function AboutMe() {
             <p className="list">2014. 한국정보올림피아드 전국대회 입상</p>
             <p className="list">2014. 한국정보올림피아드 강원도 대회 공동1위</p>
             <p className="list">2012. 한국정보올림피아드 전국대회 동상</p>
+            <p>
+                <b className="sub-color"><img src={Check}/> 학력 </b>
+                <b className="list">
+                    &nbsp;호서대학교 정보보호학과
+                </b>
+            </p>
         </div>
         <div className="experience">
             <img src={Check}/> <b className="sub-color">대외 활동</b>
@@ -59,6 +65,7 @@ export function AboutMe() {
             <p className="list">2017~2018 올엔올 CETS데모 개발</p>
             <p className="list">2016 엘젠ICT 근로 장학</p>
             <p className="list">2014~2015 서울여대 정보보호 영재교육원 1,2기 수료</p>
+            <p className="list">2012 강원대 과학영재교육원 중등정보과학사사 </p>
         </div>
         <div className="certification">
             <img src={Check}/> <b className="sub-color">자격증/어학</b>
