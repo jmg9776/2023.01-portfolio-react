@@ -18,14 +18,14 @@ export function AboutMe() {
     for (let i in Skill_icons) {
         if (count < 4) {
             iconsRender.push(
-                <div key={i} className="skill-box" style={{left:100+count*270}}>
+                <div key={i} className="skill-box" style={{left:100+count*260}}>
                     <img src={Skill_icons[i]} className="skill-image"/>
                 </div>
             )
         }
         else {
             iconsRender.push(
-                <div key={i} className="skill-box" style={{left:(count-4)*270, top:983}}>
+                <div key={i} className="skill-box" style={{left:(count-4)*260, top:953}}>
                     <img src={Skill_icons[i]} className="skill-image"/>
                 </div>
             )

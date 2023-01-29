@@ -94,7 +94,7 @@ p {
     line-height: 1.2;
     position: absolute;
     left: 840px;
-    top: 630px;
+    top: 610px;
     z-index: 46;
 }
 .list {
@@ -117,7 +117,7 @@ p {
     line-height: 1.2;
     position: absolute;
     left: 587px;
-    top: 790px;
+    top: 780px;
     z-index: 31;
 }
 
@@ -135,8 +135,8 @@ p {
     border-radius: 50px;
     position: absolute;
     left: 355px;
-    top: 855px;
-    width: 244px;
+    top: 835px;
+    width: 240px;
     height: 97px;
     z-index: 35;
 }
