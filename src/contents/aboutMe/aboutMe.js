@@ -2,8 +2,36 @@ import Photo from './photo.png'
 import Github from './github.png'
 import './aboutMe.css'
 import Check from './check.png'
+import Test from './skill_icons/1.png'
+function importAll(r) {
+    let files = {};
+    r.keys().map((item, index) => {
+        files[item.replace("./", "")] = r(item);
+    });
+    return files;
+}
 
 export function AboutMe() {
+    let Skill_icons = importAll(require.context('./skill_icons'))
+    const iconsRender = [];
+    let count=0;
+    for (let i in Skill_icons) {
+        if (count < 4) {
+            iconsRender.push(
+                <div key={i} className="skill-box" style={{left:100+count*270}}>
+                    <img src={Skill_icons[i]} className="skill-image"/>
+                </div>
+            )
+        }
+        else {
+            iconsRender.push(
+                <div key={i} className="skill-box" style={{left:(count-4)*270, top:983}}>
+                    <img src={Skill_icons[i]} className="skill-image"/>
+                </div>
+            )
+        }
+        count++;
+    }
     return <div className="about-me-box">
         <div className="title-back"></div>
         <div className="title">ABOUT ME</div>
@@ -74,6 +102,8 @@ export function AboutMe() {
             <p className="list">정보처리산업기사</p>
             <p className="list">JLPT N3</p>
         </div>
+        <p className="skill-text">SKILL</p>
+        {iconsRender}
     </div>
 }
 export default AboutMe;

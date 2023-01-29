@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Content from './contents/contents.js'
 import video from "./header/intro/intro.mp4";
 import {useEffect, useState} from "react";
+import {Player} from 'video-react';
 
 function useWindowSize() {
     const [windowSize, setWindowSize] = useState({
@@ -42,8 +43,6 @@ function App() {
                 </video>
             </div>
             <div style={{scale:scale+"%"}}>
-
-
                 <Content></Content>
             </div>
         </div>
