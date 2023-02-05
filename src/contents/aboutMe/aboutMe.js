@@ -2,7 +2,7 @@ import Photo from './photo.png'
 import Github from './github.png'
 import './aboutMe.css'
 import Check from './check.png'
-import Test from './skill_icons/1.png'
+
 function importAll(r) {
     let files = {};
     r.keys().map((item, index) => {
@@ -37,9 +37,17 @@ export function AboutMe() {
         <div className="title">ABOUT ME</div>
         <div className="sub-title">
             "팀원과의 소통과 협력을 중요하게 생각하는 <b className="sub-color">생각이 유연하고 적응이 빠른</b> 백엔드 개발자 입니다."
+            <br/>
+            모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다
+            <br/>
+            모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다
+            <br/>
+            모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다
+            <br/>
+            모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다
         </div>
         <img src={Photo} className="photo"/>
-        <a href="https://github.com/DARU970706" className="git-box" target="_blank"><img src={Github}/></a>
+        <a href="https://github.com/dev-daru" className="git-box" target="_blank"><img src={Github}/></a>
         <div className="info-box1">
             <b className="sub-color">
                 NAME :

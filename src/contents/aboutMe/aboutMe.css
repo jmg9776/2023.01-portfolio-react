@@ -1,7 +1,7 @@
 .photo {
     position: absolute;
     left: 0px;
-    top: 262px;
+    top: 332px;
     z-index: 52;
 }
 .title-back {
@@ -44,7 +44,7 @@
     line-height: 1.2;
     position: absolute;
     left: 404px;
-    top: 260px;
+    top: 320px;
     z-index: 46;
 }
 .info-box2 {
@@ -55,7 +55,7 @@
     line-height: 1.2;
     position: absolute;
     left: 840px;
-    top: 260px;
+    top: 320px;
     z-index: 46;
 }
 p {
@@ -64,7 +64,7 @@ p {
 .git-box {
     position: absolute;
     left: 83px;
-    top: 650px;
+    top: 720px;
     z-index: 64;
 }
 .award-box {
@@ -74,7 +74,7 @@ p {
     line-height: 1.2;
     position: absolute;
     left: 404px;
-    top: 360px;
+    top: 430px;
     z-index: 46;
 }
 .experience {
@@ -84,7 +84,7 @@ p {
     line-height: 1.2;
     position: absolute;
     left: 840px;
-    top: 360px;
+    top: 430px;
     z-index: 46;
 }
 .certification {
@@ -94,7 +94,7 @@ p {
     line-height: 1.2;
     position: absolute;
     left: 840px;
-    top: 610px;
+    top: 680px;
     z-index: 46;
 }
 .list {
@@ -117,7 +117,7 @@ p {
     line-height: 1.2;
     position: absolute;
     left: 587px;
-    top: 780px;
+    top: 850px;
     z-index: 31;
 }
 
@@ -125,6 +125,8 @@ p {
     position: absolute;
     top: 50%;
     left: 50%;
+    height: 44px;
+    object-fit: scale-down;
     transform: translate(-50%, -50%);
 }
 
@@ -135,7 +137,7 @@ p {
     border-radius: 50px;
     position: absolute;
     left: 355px;
-    top: 835px;
+    top: 930px;
     width: 240px;
     height: 97px;
     z-index: 35;
