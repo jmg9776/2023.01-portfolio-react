@@ -32,6 +32,7 @@
     left: 290px;
     top: 150px;
     z-index: 44;
+    text-align: center;
 }
 .sub-color {
     color: rgb(157, 147, 234);

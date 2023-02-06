@@ -36,15 +36,13 @@ export function AboutMe() {
         <div className="title-back"></div>
         <div className="title">ABOUT ME</div>
         <div className="sub-title">
-            "팀원과의 소통과 협력을 중요하게 생각하는 <b className="sub-color">생각이 유연하고 적응이 빠른</b> 백엔드 개발자 입니다."
+            [팀원과의 소통과 협력을 중시하고 어울리는것을 즐기며,  <b className="sub-color">생각이 유연한 백엔드 개발자</b>입니다.]
+            <br/><br/>
+            중학생 때부터 개발에 관심을 가지게 되며 현재에 이르기까지 개발을 즐기고 있습니다!
             <br/>
-            모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다
+            군대에서까지 사무 자동화를 할 정도로 편리함과 효율을 추구합니다.
             <br/>
-            모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다
-            <br/>
-            모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다
-            <br/>
-            모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다모르겠다
+            언제나 열린 마음으로 새로운 사람과 소통하는 것을 즐기며, 함께 문제를 해결하는 것을 좋아합니다.
         </div>
         <img src={Photo} className="photo"/>
         <a href="https://github.com/dev-daru" className="git-box" target="_blank"><img src={Github}/></a>
