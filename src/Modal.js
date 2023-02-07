@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import {a11yDark} from "react-syntax-highlighter/src/styles/hljs";
 import SyntaxHighlighter from "react-syntax-highlighter/dist/cjs/light";
-import 'github-markdown-css'
+import 'github-markdown-css/github-markdown-dark.css'
 function Notes(props) {
     const [text, setText] = React.useState();
     fetch(props)
