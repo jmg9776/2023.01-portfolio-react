@@ -6,14 +6,27 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/react-syntax-highlighter": "^15.5.6",
+    "axios": "^1.3.2",
     "bootstrap": "^5.2.3",
+    "github-markdown-css": "^5.1.0",
+    "notion-client": "^6.15.8",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.5",
+    "react-modal": "^3.16.1",
+    "react-notion": "^0.10.0",
+    "react-notion-x": "^6.15.8",
+    "react-router-dom": "^6.8.1",
     "react-scaling": "github:CreativeBuilds/react-scaling",
     "react-scripts": "5.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "remark-gfm": "^3.0.1",
     "video-react": "^0.16.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.75.0",
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,5 +51,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "main": "index.js",
+  "repository": "https://github.com/DARU970706/react-portfolio.git",
+  "author": "jomingyun <jmg97@kakao.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0"
   }
 }

@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Content from './contents/contents.js'
 import video from "./header/intro/intro.mp4";
 import {useEffect, useState} from "react";
-import {Player} from 'video-react';
+import Modal from "./Modal";
+import md from "./file/1.md";
 
 function useWindowSize() {
     const [windowSize, setWindowSize] = useState({
@@ -21,6 +22,7 @@ function useWindowSize() {
     return windowSize;
 }
 function App() {
+
     const size = useWindowSize();
     let sUsrAg = navigator.userAgent;
     let scale = (window.innerWidth/1300*100);
@@ -34,6 +36,7 @@ function App() {
             "다른 브라우저 이용시 정상적인 확인이 불가능 할 수 있습니다.")
     }
     let videoHeight = (1080*scale/100) + "px";
+    const [detail, setDetail] = useState(false);
     return (
         <div>
             <div style={{overflow:"hidden", width:window.innerWidth, height:videoHeight, position:"absolute", left:"50%",transform: "translate(-50%, 0%)"}}>
@@ -43,11 +46,16 @@ function App() {
                 </video>
             </div>
             <div style={{scale:scale+"%"}}>
-                <Content></Content>
+                <Content>
+
+                </Content>
             </div>
         </div>
-
     );
+
+
+
+
 }
 
 export default App;

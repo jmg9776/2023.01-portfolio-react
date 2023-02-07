@@ -35,6 +35,7 @@ export function AboutMe() {
     return <div className="about-me-box">
         <div className="title-back"></div>
         <div className="title">ABOUT ME</div>
+
         <div className="sub-title">
             [팀원과의 소통과 협력을 중시하고 어울리는것을 즐기며,  <b className="sub-color">생각이 유연한 백엔드 개발자</b>입니다.]
             <br/><br/>

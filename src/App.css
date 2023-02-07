@@ -1,2 +1,40 @@
-.wrap{
+.Modal {
+    top: 0vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    overflow-y: initial !important
+}
+
+/* modal창 */
+.modalBody {
+    position: fixed;
+    top:3vh;
+    width: 100%;
+    height: 94vh;
+    padding: 40px;
+    left:0;
+    text-align: left;
+    background-color: rgb(14, 17, 23);
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+    overflow-y: auto;
+    z-index: 99999;
+    line-height:20px;
+}
+
+#modalCloseBtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#modalCloseBtn:hover {
+    cursor: pointer;
 }

@@ -2,6 +2,7 @@ import AboutMe from './aboutMe/aboutMe.js'
 import './contents.css';
 import Header from "../header/header";
 import Projects from "./projects/projects";
+import {Modal} from "react-modal";
 export function Contents() {
     return <div className="board">
         <Header></Header>
