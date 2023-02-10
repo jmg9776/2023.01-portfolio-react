@@ -4,8 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Content from './contents/contents.js'
 import video from "./header/intro/intro.mp4";
 import {useEffect, useState} from "react";
-import Modal from "./Modal";
-import md from "./file/1.md";
 
 function useWindowSize() {
     const [windowSize, setWindowSize] = useState({

@@ -2,9 +2,8 @@ import './projects.css';
 import Github from './github.png'
 import Detail from './detail.png'
 import md from "./file/1.md";
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import Modal from "../../Modal";
-import { useLocation } from "react-router-dom";
 
 function ProjectContents(props) {
     const [detail, setDetail] = useState(false);

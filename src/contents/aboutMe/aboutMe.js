@@ -2,6 +2,10 @@ import Photo from './photo.png'
 import Github from './github.png'
 import './aboutMe.css'
 import Check from './check.png'
+import Modal from "../../Modal";
+import Detail from "../projects/detail.png";
+import md from "./infoDetail.md";
+import {useState} from "react";
 
 function importAll(r) {
     let files = {};
@@ -14,6 +18,7 @@ function importAll(r) {
 export function AboutMe() {
     let Skill_icons = importAll(require.context('./skill_icons'))
     const iconsRender = [];
+    const [detail, setDetail] = useState(false);
     let count=0;
     for (let i in Skill_icons) {
         if (count < 4) {
@@ -37,13 +42,15 @@ export function AboutMe() {
         <div className="title">ABOUT ME</div>
 
         <div className="sub-title">
-            [팀원과의 소통과 협력을 중시하고 어울리는것을 즐기며,  <b className="sub-color">생각이 유연한 백엔드 개발자</b>입니다.]
-            <br/><br/>
-            중학생 때부터 개발에 관심을 가지게 되며 현재에 이르기까지 개발을 즐기고 있습니다!
-            <br/>
-            군대에서까지 사무 자동화를 할 정도로 편리함과 효율을 추구합니다.
-            <br/>
-            언제나 열린 마음으로 새로운 사람과 소통하는 것을 즐기며, 함께 문제를 해결하는 것을 좋아합니다.
+            <br/><b className="sub-color">"개발하는것과 사람들과 소통하는것</b>을 즐기는 백엔드 개발자 조민균입니다.<br/><br/>
+            중학생 때부터 개발에 관심을 가지게 되면서 정보올림피아드로 시작해 수상까지 할 수 있었고,<br/> 현재까지 꾸준한 여러 대회에 출전하여 수상할 정도로 개발을 즐기고 있습니다 !&nbsp;
+            <a className="sub-color" href='javascript:void(0);' style={{overflow:"auto"}} onClick={() => setDetail(!detail)}>
+                More
+            </a>
+            <input style={{display:"none"}} type="button" onClick={() => setDetail(!detail)}/>
+            {detail &&
+                (<Modal md={md} closeModal={() => setDetail(!detail)}>
+                </Modal>)}
         </div>
         <img src={Photo} className="photo"/>
         <a href="https://github.com/dev-daru" className="git-box" target="_blank"><img src={Github}/></a>
