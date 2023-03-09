@@ -29,9 +29,10 @@
     color: rgb(169, 169, 169);
     line-height: 1.2;
     position: absolute;
-    left: 310px;
+    left: 50%;
     top: 150px;
     z-index: 44;
+    transform: translate(-50%, 0%);
     text-align: center;
 }
 .sub-color {

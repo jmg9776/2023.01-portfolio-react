@@ -3,7 +3,6 @@ import Github from './github.png'
 import './aboutMe.css'
 import Check from './check.png'
 import Modal from "../../Modal";
-import Detail from "../projects/detail.png";
 import md from "./infoDetail.md";
 import {useState} from "react";
 
@@ -43,8 +42,9 @@ export function AboutMe() {
 
         <div className="sub-title">
             <br/><b className="sub-color">"개발하는것과 사람들과 소통하는것</b>을 즐기는 백엔드 개발자 조민균입니다.<br/><br/>
-            중학생 때부터 개발에 관심을 가지게 되면서 정보올림피아드로 시작해 수상까지 할 수 있었고,<br/> 현재까지 꾸준한 여러 대회에 출전하여 수상할 정도로 개발을 즐기고 있습니다 !&nbsp;
-            <a className="sub-color" href='javascript:void(0);' style={{overflow:"auto"}} onClick={() => setDetail(!detail)}>
+            여러 프로젝트들을 진행하면서 문제를 해결하면서 소통의 중요성을 이해할 수 있게 되었고<br/>
+            현재까지 꾸준히 여러 대회에 참여, 토이프로젝트 제작을 하며 개발을 즐기고 있습니다 !
+            <a className="sub-color" href='javascript:void(0);' style={{overflow:"auto"}} onClick={() => (!detail)}>
                 More
             </a>
             <input style={{display:"none"}} type="button" onClick={() => setDetail(!detail)}/>
